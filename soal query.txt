@@ -1,0 +1,3 @@
+SELECT u.id, u.name_user, p.name_parent 
+FROM user u
+LEFT JOIN parent p ON u.parent_id  = p.id;
